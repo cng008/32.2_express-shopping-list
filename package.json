@@ -1,0 +1,23 @@
+{
+  "name": "32.2_express-shopping-list",
+  "version": "1.0.0",
+  "description": "a simple JSON API application where we will store a shopping list",
+  "main": "expressError.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cng008/32.2_express-shopping-list.git"
+  },
+  "author": "Christien Ng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cng008/32.2_express-shopping-list/issues"
+  },
+  "homepage": "https://github.com/cng008/32.2_express-shopping-list#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
