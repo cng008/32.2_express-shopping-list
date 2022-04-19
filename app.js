@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.json());
 app.use('/items', itemsRoutes); // apply a prefix to every route in itemsRoutes
-// app.get('/favicon.ico', (req, res) => res.sendStatus(204));
+app.get('/favicon.ico', (req, res) => res.sendStatus(204));
 
 // 404 HANDLER
 app.use((req, res, next) => {
