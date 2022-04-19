@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/cng008/32.2_express-shopping-list#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "supertest": "^6.2.2"
   }
 }
