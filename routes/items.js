@@ -43,7 +43,7 @@ router.patch('/:name', (req, res) => {
 
 /** DELETE A SPECIFIC ITEM FROM THE ARRAY */
 router.delete('/:name', (req, res) => {
-  const foundItem = items.find(item => item.name === req.params.name);
+  const foundItem = items.findIndex(item => item.name === req.params.name);
   if (foundItem === -1) {
     throw new ExpressError('Item not found', 404);
   }
